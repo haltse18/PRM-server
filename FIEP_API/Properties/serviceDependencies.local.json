@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "redis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Cache/Redis/FIEPAPIcache",
+      "type": "redis.azure",
+      "connectionId": "CacheConnection",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
